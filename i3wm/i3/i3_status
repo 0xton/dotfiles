@@ -1,0 +1,62 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+
+           general {
+                   output_format = "i3bar"
+                   colors = true
+                   interval = 5
+           }
+
+
+           order += "wireless 0"
+           order += "ethernet ens33"
+           order += "disk /"
+           order += "cpu_usage"
+           order += "cpu_temperature 0"
+           order += "tztime local"
+           order += "battery 0"
+
+           wireless 0 {
+                   format_up = "wireless: (%quality at %essid, %bitrate) %ip"
+                   format_down = " "
+           }
+
+           ethernet ens33 {
+                   # if you use %speed, i3status requires the cap_net_admin capability
+                   format_up = "ethernet: %ip (%speed)"
+                   format_down = " "
+           }
+
+           disk "/" {
+                   format = "Disk_Free: %free"
+           }
+
+           cpu_usage {
+                   format = "CPU_Use: %usage"
+           }
+
+           cpu_temperature 0 {
+                   format = "CPU_Tem: %degrees °C"
+                   path = "/sys/devices/platform/coretemp.0/temp1_input"
+           }
+
+           tztime local {
+                   format = "%Y-%m-%d %H:%M:%S"
+           }
+
+           battery 0 {
+                   format = "%status %percentage %remaining %emptytime"
+                   format_down = "No battery"
+                   status_chr = "CHR"
+                   status_bat = "BAT"
+                   status_unk = "UNK"
+                   status_full = "FULL"
+                   path = "/sys/class/power_supply/BAT%d/uevent"
+                   low_threshold = 10
+           }
