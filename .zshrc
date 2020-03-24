@@ -23,10 +23,11 @@ autoload -Uz _zinit
 zplugin light-mode for \
         zdharma/fast-syntax-highlighting \
         zsh-users/zsh-autosuggestions
-
-zinit ice depth=1; zinit light romkatv/powerlevel10k
+zinit snippet OMZ::lib/history.zsh
+zinit snippet OMZ::lib/theme-and-appearance.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+zinit ice depth=1; zinit light romkatv/powerlevel10k
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias vi=vim
