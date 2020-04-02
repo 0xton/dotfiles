@@ -15,12 +15,12 @@
                 "source": "Windows.Terminal.Wsl",
                 "fontFace": "Fira Code",
                 // "fontSize": 14
+                "startingDirectory": "//wsl$/arch/root/",
+                "backgroundImage": "C:/Users/xxx",
+                "backgroundImageStretchMode": "uniformToFill",
+                "backgroundImageOpacity": 0.5,
                 "useAcrylic": true,
                 "acrylicOpacity": 0.5,
-                "startingDirectory": "//wsl$/arch/root/",
-                "backgroundImage": "",
-                "backgroundImageOpacity": 0.5,
-                "backgroundImageStretchMode": "uniformToFill",
                 // "experimental.retroTerminalEffect": true,
                 "colorScheme": "Dracula"
             },
@@ -31,11 +31,11 @@
                 "commandline": "powershell.exe",
                 "hidden": false,
                 "fontFace": "Fira Code",
+                "backgroundImage": "C:/Users/xxx",
+                "backgroundImageStretchMode": "uniformToFill",
+                "backgroundImageOpacity": 0.5,
                 "useAcrylic": true,
                 "acrylicOpacity": 0.5,
-                "backgroundImage": "",
-                "backgroundImageOpacity": 0.5,
-                "backgroundImageStretchMode": "uniformToFill",
                 "colorScheme": "Dracula"
             },
             {
@@ -45,11 +45,11 @@
                 "commandline": "cmd.exe",
                 "hidden": false,
                 "fontFace": "Fira Code",
+                "backgroundImage": "C:/Users/xxx",
+                "backgroundImageStretchMode": "uniformToFill",
+                "backgroundImageOpacity": 0.5,
                 "useAcrylic": true,
                 "acrylicOpacity": 0.5,
-                "backgroundImage": "",
-                "backgroundImageOpacity": 0.5,
-                "backgroundImageStretchMode": "uniformToFill",
                 "colorScheme": "Dracula"
             },
             {
@@ -63,6 +63,7 @@
     // Add custom color schemes to this array
     "schemes": [
         {
+            "name": "Dracula",
             "background": "#282A36",
             "black": "#21222C",
             "blue": "#BD93F9",
@@ -77,7 +78,6 @@
             "cyan": "#8BE9FD",
             "foreground": "#F8F8F2",
             "green": "#50FA7B",
-            "name": "Dracula",
             "purple": "#FF79C6",
             "red": "#FF5555",
             "white": "#F8F8F2",
