@@ -64,7 +64,8 @@
     "schemes": [
         {
             "name": "Dracula",
-            "background": "#282A36",
+            // "background": "#282A36",
+            "background": "#000000",
             "black": "#21222C",
             "blue": "#BD93F9",
             "brightBlack": "#6272A4",
