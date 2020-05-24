@@ -30,11 +30,11 @@
                 "fontFace": "Fira Code",
                 // "fontSize": 14
                 "startingDirectory": "//wsl$/arch/root/",
-                // "backgroundImage": "C:/Users/xxx",
-                // "backgroundImageStretchMode": "uniformToFill",
-                // "backgroundImageOpacity": 0.5,
-                // "useAcrylic": true,
-                // "acrylicOpacity": 0.5,
+                "backgroundImage": "C:/Users/lijia/OneDrive/图片/壁纸/0d854c19c296a1440b05a754a5e9330599de1967.jpg",
+                "backgroundImageStretchMode": "uniformToFill",
+                "backgroundImageOpacity": 0.5,
+                "useAcrylic": true,
+                "acrylicOpacity": 0.5,
                 // "experimental.retroTerminalEffect": true,
                 "colorScheme": "Dracula"
             },
@@ -45,11 +45,11 @@
                 "commandline": "powershell.exe",
                 "hidden": false,
                 "fontFace": "Fira Code",
-                // "backgroundImage": "C:/Users/xxx",
-                // "backgroundImageStretchMode": "uniformToFill",
-                // "backgroundImageOpacity": 0.5,
-                // "useAcrylic": true,
-                // "acrylicOpacity": 0.5,
+                "backgroundImage": "C:/Users/lijia/OneDrive/图片/壁纸/0d854c19c296a1440b05a754a5e9330599de1967.jpg",
+                "backgroundImageStretchMode": "uniformToFill",
+                "backgroundImageOpacity": 0.5,
+                "useAcrylic": true,
+                "acrylicOpacity": 0.5,
                 "colorScheme": "Dracula"
             },
             {
@@ -59,11 +59,11 @@
                 "commandline": "cmd.exe",
                 "hidden": false,
                 "fontFace": "Fira Code",
-                // "backgroundImage": "C:/Users/xxx",
-                // "backgroundImageStretchMode": "uniformToFill",
-                // "backgroundImageOpacity": 0.5,
-                // "useAcrylic": true,
-                // "acrylicOpacity": 0.5,
+                "backgroundImage": "C:/Users/lijia/OneDrive/图片/壁纸/0d854c19c296a1440b05a754a5e9330599de1967.jpg",
+                "backgroundImageStretchMode": "uniformToFill",
+                "backgroundImageOpacity": 0.5,
+                "useAcrylic": true,
+                "acrylicOpacity": 0.5,
                 "colorScheme": "Dracula"
             },
             {
@@ -79,7 +79,6 @@
     "schemes": [
         {
             "name": "Dracula",
-            // "background": "#282A36",
             "background": "#000000",
             "black": "#21222C",
             "blue": "#BD93F9",
@@ -121,7 +120,79 @@
         // Press Ctrl+Shift+F to open the search box
         {
             "command": "find",
-            "keys": "ctrl+shift+f"
+            "keys": "ctrl+f"
+        },
+        {
+            "command": "closeWindow",
+            "keys": "alt+f4"
+        },
+        {
+            "command": "openNewTabDropdown",
+            "keys": "ctrl+space"
+        },
+        {
+            "command": "toggleFullscreen",
+            "keys": "alt+enter"
+        },
+        {
+            "command": "newTab",
+            "keys": "ctrl+t"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "keys": "alt+down"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "keys": "alt+left"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "keys": "alt+right"
+        },
+        {
+            "command": {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "keys": "alt+up"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "down"
+            },
+            "keys": "alt+shift+down"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "keys": "alt+shift+left"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "right"
+            },
+            "keys": "alt+shift+right"
+        },
+        {
+            "command": {
+                "action": "resizePane",
+                "direction": "up"
+            },
+            "keys": "alt+shift+up"
         },
         // Press Alt+Shift+D to open a new pane.
         // - "split": "auto" makes this pane open in the direction that provides the most surface area.
@@ -133,7 +204,7 @@
                 "split": "auto",
                 "splitMode": "duplicate"
             },
-            "keys": "alt+shift+d"
+            "keys": "ctrl+d"
         }
     ]
 }
