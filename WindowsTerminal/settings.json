@@ -117,6 +117,10 @@
             "command": "paste",
             "keys": "ctrl+v"
         },
+        {
+            "command": "closeTab",
+            "keys": "ctrl+w"
+        },
         // Press Ctrl+Shift+F to open the search box
         {
             "command": "find",
