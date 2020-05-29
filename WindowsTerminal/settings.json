@@ -118,7 +118,7 @@
             "keys": "ctrl+v"
         },
         {
-            "command": "closeTab",
+            "command": "closePane",
             "keys": "ctrl+w"
         },
         // Press Ctrl+Shift+F to open the search box
@@ -127,7 +127,7 @@
             "keys": "ctrl+f"
         },
         {
-            "command": "closeWindow",
+            "command": "closeTab",
             "keys": "alt+f4"
         },
         {
