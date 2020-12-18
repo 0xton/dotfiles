@@ -38,3 +38,7 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 alias ll="ls -lAh"
 alias vi="vim"
 # alias END
+
+# proxy
+#export http_proxy=192.168.1.135:5678
+#export https_proxy=$http_proxy
