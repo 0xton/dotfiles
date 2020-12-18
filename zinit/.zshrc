@@ -37,6 +37,7 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 # alias
 alias ll="ls -lAh"
 alias vi="vim"
+alias "pip install"="pip install scrapy -i https://pypi.tuna.tsinghua.edu.cn/simple"
 # alias END
 
 # proxy
