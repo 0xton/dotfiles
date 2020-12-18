@@ -27,15 +27,20 @@
                 "hidden": false,
                 "name": "Arch",
                 "source": "Windows.Terminal.Wsl",
-                "fontFace": "Fira Code",
+                "fontFace": "",
                 // "fontSize": 14
                 "startingDirectory": "//wsl$/arch/root/",
-                "backgroundImage": "C:/Users/lijia/OneDrive/图片/壁纸/0d854c19c296a1440b05a754a5e9330599de1967.jpg",
-                "backgroundImageStretchMode": "uniformToFill",
+                // "backgroundImage": "",
+                // "backgroundImageStretchMode": "uniformToFill",
                 "backgroundImageOpacity": 0.5,
                 "useAcrylic": true,
                 "acrylicOpacity": 0.5,
                 // "experimental.retroTerminalEffect": true,
+                "alwaysShowTabs": false,
+                "showTabsInTitlebar": false,
+                "copyOnSelect": false,
+                //"grayscale"、"cleartype"、"aliased"
+                "antialiasingMode": "cleartype",
                 "colorScheme": "Dracula"
             },
             {
@@ -44,12 +49,6 @@
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
                 "hidden": false,
-                "fontFace": "Fira Code",
-                "backgroundImage": "C:/Users/lijia/OneDrive/图片/壁纸/0d854c19c296a1440b05a754a5e9330599de1967.jpg",
-                "backgroundImageStretchMode": "uniformToFill",
-                "backgroundImageOpacity": 0.5,
-                "useAcrylic": true,
-                "acrylicOpacity": 0.5,
                 "colorScheme": "Dracula"
             },
             {
@@ -57,18 +56,12 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "cmd",
                 "commandline": "cmd.exe",
-                "hidden": false,
-                "fontFace": "Fira Code",
-                "backgroundImage": "C:/Users/lijia/OneDrive/图片/壁纸/0d854c19c296a1440b05a754a5e9330599de1967.jpg",
-                "backgroundImageStretchMode": "uniformToFill",
-                "backgroundImageOpacity": 0.5,
-                "useAcrylic": true,
-                "acrylicOpacity": 0.5,
+                "hidden": true,
                 "colorScheme": "Dracula"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
             }
@@ -118,6 +111,10 @@
             "keys": "ctrl+v"
         },
         {
+            "command": "newTab",
+            "keys": "ctrl+t"
+        },
+        {
             "command": "closePane",
             "keys": "ctrl+w"
         },
@@ -137,10 +134,6 @@
         {
             "command": "toggleFullscreen",
             "keys": "alt+enter"
-        },
-        {
-            "command": "newTab",
-            "keys": "ctrl+t"
         },
         {
             "command": {
@@ -209,6 +202,9 @@
                 "splitMode": "duplicate"
             },
             "keys": "ctrl+d"
-        }
-    ]
+        },
+        {
+            "command": "commandPalette",
+            "keys": "ctrl+shift+p"
+        }    ]
 }
