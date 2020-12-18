@@ -128,10 +128,6 @@
             "keys": "alt+f4"
         },
         {
-            "command": "openNewTabDropdown",
-            "keys": "ctrl+space"
-        },
-        {
             "command": "toggleFullscreen",
             "keys": "alt+enter"
         },
