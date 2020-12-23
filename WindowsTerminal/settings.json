@@ -27,20 +27,20 @@
                 "hidden": false,
                 "name": "Arch",
                 "source": "Windows.Terminal.Wsl",
-                "fontFace": "",
+                "fontFace": "Fira Code",
                 // "fontSize": 14
                 "startingDirectory": "//wsl$/arch/root/",
                 // "backgroundImage": "",
                 // "backgroundImageStretchMode": "uniformToFill",
                 // "backgroundImageOpacity": 0.5,
-                "useAcrylic": true,
-                "acrylicOpacity": 0.7,
+                // "useAcrylic": true,
+                // "acrylicOpacity": 0.7,
                 // "experimental.retroTerminalEffect": true,
                 "alwaysShowTabs": false,
                 "showTabsInTitlebar": false,
                 "copyOnSelect": false,
                 //"grayscale"、"cleartype"、"aliased"
-                "antialiasingMode": "cleartype",
+                // "antialiasingMode": "cleartype",
                 "colorScheme": "Dracula"
             },
             {
