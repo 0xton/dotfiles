@@ -40,6 +40,10 @@ alias vi="vim"
 #alias "pip install"="pip install scrapy -i https://pypi.tuna.tsinghua.edu.cn/simple"
 # alias END
 
+# ENV
+export desk="/mnt/c/Users/lijia/Desktop"
+# ENV END
+
 # proxy
 #export http_proxy=192.168.1.135:5678
 #export https_proxy=$http_proxy
