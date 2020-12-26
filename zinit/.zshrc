@@ -27,7 +27,7 @@ zinit light zsh-users/zsh-autosuggestions
 zinit ice lucid wait='0'
 zinit light zsh-users/zsh-completions
 zinit snippet OMZ::lib/theme-and-appearance.zsh
-#zinit snippet OMZ::lib/history.zsh
+zinit snippet OMZ::lib/history.zsh
 #zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 zinit ice depth=1; zinit light romkatv/powerlevel10k
