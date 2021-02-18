@@ -38,11 +38,12 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 alias ll="ls -lAh"
 alias vi="vim"
 #alias "pip install"="pip install scrapy -i https://pypi.tuna.tsinghua.edu.cn/simple"
-#alias tmuxhelp="echo 'ctrl+b \" % :set synchronize-panes on | off'"
 # alias END
 
 # ENV
 export desk="/mnt/c/Users/lijia/Desktop"
+export GOPROXY=https://goproxy.io,direct
+export GOSUMDB=gosum.io+ce6e7565+AY5qEHUk/qmHc5btzW45JVoENfazw8LielDsaI+lEbq6
 # ENV END
 
 # proxy
