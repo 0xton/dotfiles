@@ -42,8 +42,6 @@ alias vi="vim"
 
 # ENV
 export desk="/mnt/c/Users/lijia/Desktop"
-export GOPROXY=https://goproxy.io,direct
-export GOSUMDB=gosum.io+ce6e7565+AY5qEHUk/qmHc5btzW45JVoENfazw8LielDsaI+lEbq6
 # ENV END
 
 # proxy
