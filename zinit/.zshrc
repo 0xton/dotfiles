@@ -17,15 +17,12 @@ source "$HOME/.zinit/bin/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 ### End of Zinit's installer chunk
-# 语法高亮
 zinit ice lucid wait='0' atinit='zpcompinit'
 zinit light zdharma/fast-syntax-highlighting
-# 自动建议
 zinit ice lucid wait="0" atload='_zsh_autosuggest_start'
 zinit light zsh-users/zsh-autosuggestions
-# 补全
-zinit ice lucid wait='0'
-zinit light zsh-users/zsh-completions
+#zinit ice blockf
+#zinit light zsh-users/zsh-completions
 zinit snippet OMZ::lib/theme-and-appearance.zsh
 zinit snippet OMZ::lib/history.zsh
 #zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
@@ -38,10 +35,13 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 alias ll="ls -lAh"
 alias vi="vim"
 #alias "pip install"="pip install scrapy -i https://pypi.tuna.tsinghua.edu.cn/simple"
+#alias tmuxhelp="echo 'ctrl+b \" % :set synchronize-panes on | off'"
+alias sj="sshpass -p Lijiale@817 ssh -p 60022 18755188722@116.62.161.45"
+alias s8='sshpass -p seven7Day7Net ssh septnet@192.168.8.240'
 # alias END
 
 # ENV
-export desk="/mnt/c/Users/lijia/Desktop"
+export desk=/mnt/c/Users/lijia/Desktop
 # ENV END
 
 # proxy
