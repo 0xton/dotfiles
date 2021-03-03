@@ -36,8 +36,6 @@ alias ll="ls -lAh"
 alias vi="vim"
 #alias "pip install"="pip install scrapy -i https://pypi.tuna.tsinghua.edu.cn/simple"
 #alias tmuxhelp="echo 'ctrl+b \" % :set synchronize-panes on | off'"
-alias sj="sshpass -p Lijiale@817 ssh -p 60022 18755188722@116.62.161.45"
-alias s8='sshpass -p seven7Day7Net ssh septnet@192.168.8.240'
 # alias END
 
 # ENV
