@@ -27,6 +27,11 @@ zinit light zsh-users/zsh-autosuggestions
 #zinit snippet OMZ::lib/completion.zsh
 zinit snippet OMZ::lib/theme-and-appearance.zsh
 zinit snippet OMZ::lib/history.zsh
+zinit ice lucid wait='0'
+zinit snippet https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose/_docker-compose
+zinit ice lucid wait='0'
+zinit snippet https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker/_docker
+#pip install kube-shell(run shell command by prefixing command with "!")
 #zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 zinit ice depth=1; zinit light romkatv/powerlevel10k
