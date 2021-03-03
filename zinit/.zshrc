@@ -21,8 +21,10 @@ zinit ice lucid wait='0' atinit='zpcompinit'
 zinit light zdharma/fast-syntax-highlighting
 zinit ice lucid wait="0" atload='_zsh_autosuggest_start'
 zinit light zsh-users/zsh-autosuggestions
+#zi clist | zi cenable xxx | zi cdisable xxx | zinit csearch xxx
 #zinit ice blockf
 #zinit light zsh-users/zsh-completions
+#zinit snippet OMZ::lib/completion.zsh
 zinit snippet OMZ::lib/theme-and-appearance.zsh
 zinit snippet OMZ::lib/history.zsh
 #zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
